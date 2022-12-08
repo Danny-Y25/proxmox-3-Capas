@@ -1,0 +1,17 @@
+
+Nombre de la base de Datos:fastApiDB
+Usario de Postgres:fastperson
+password:fastperson
+
+
+CREATE TABLE users( 
+    id VARCHAR(255),
+    firstname VARCHAR(255),
+    lastname VARCHAR(255), 
+    username VARCHAR(255),
+    country VARCHAR(255), 
+    password_user VARCHAR(255)
+    );
+
+INSERT INTO users VALUES('1','Genesis','Loja','gen','ar','pbkdf2:sha256:30$ofsjoRT9MyY58ezCd98NYxp4SvPEJk$696b557dd4769a8906ab2e38d15c06093904cd1b8e8f9840399c5b43b6ad1a38');
+INSERT INTO users VALUES('2','vanesa','Buele','vane','can','pbkdf2:sha256:30$U7QDFSeO5UnGDzTKVjQTPNG0Sd57TP$37d90ce904d6c1ed3314b058fc34927f05cf4f527de39506a1755cd45103ba14');
